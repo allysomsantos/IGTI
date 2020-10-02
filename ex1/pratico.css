@@ -1,0 +1,13 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255,255,255);
+}
+.inputs{
+  float: left;
+
+}
+
+.box{
+  clear: both;
+}

@@ -1,0 +1,24 @@
+img{
+  border-radius: 50%;
+}
+
+ul {
+  display: table;
+  list-style: none;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+ img, p{
+  float: left;
+  padding-right: 10px;
+  
+} 
+.names , .statistics {
+  width: 50%;
+  float: left;
+}
+
+.stat{
+  clear: both;
+}

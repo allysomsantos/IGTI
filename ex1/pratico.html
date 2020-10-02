@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="pratico.css" />
+  <script src="pratico.js"></script>
+  <title>Trabalho Prático 01</title>
+</head>
+
+<body>
+  <div class="inputs">
+
+
+    <p class="red">(R) VERMELHO:</p>
+
+    <input type="range" min="0" max="255" id="red" data-va onchange="updateBox()">
+
+    <input id="rtxt" type="text" value="0" readonly disabled>
+
+
+    <p class="green">(G) VERDE:</p>
+
+    <input type="range" min="0" max="255" id="green" onchange="updateBox()">
+
+    <input id="gtxt" type="text" value="0" readonly disabled>
+
+
+    <p class="blue">(B) AZUL:</p>
+
+    <input type="range" min="0" max="255" id="blue" onchange="updateBox()">
+
+    <input id="btxt" type="text" value="0" readonly disabled>
+
+
+  </div>
+  <div class="box" id="box"></div>
+</body>
+
+</html>
